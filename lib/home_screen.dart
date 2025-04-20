@@ -1,7 +1,7 @@
 import 'package:assignment3_noteit/category_cubit.dart';
+import 'package:assignment3_noteit/noteCard.dart';
 import 'package:assignment3_noteit/note_model.dart';
 import 'package:assignment3_noteit/notelist_cubit.dart';
-import 'package:assignment3_noteit/notecard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

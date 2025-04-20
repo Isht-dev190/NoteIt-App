@@ -85,7 +85,7 @@ class EditNote extends StatelessWidget {
                       ),
                       onPressed: () {
                         final listCubit = context.read<NoteListCubit>();
-                        cubit.saveNote(listCubit); 
+                        cubit.updateNote(listCubit); 
                         context.pop(); 
                       },
                       child: const Text("UPDATE"),

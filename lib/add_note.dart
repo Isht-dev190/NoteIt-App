@@ -82,7 +82,7 @@ class AddNote extends StatelessWidget {
                           ),
                         );
                       } else {
-                        noteCubit.saveNote(listCubit);
+                        noteCubit.addNote(listCubit);
                         context.pop(); // go back to HomeScreen
                       }
                     },
